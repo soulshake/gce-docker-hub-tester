@@ -4,5 +4,6 @@ script:
   - docker pull solarce/precise-ruby:latest
   - docker pull ruby
   - docker pull python
-  - docker pull travisci/worker
-  - docker pull travisci/ci-amethyst
+  - docker pull travisci/worker:v3.2.2
+  - docker pull travisci/ci-amethyst:packer-1508250117-29cd77f
+  - docker pull amouat/large-image
