@@ -1,0 +1,8 @@
+services: docker
+
+script:
+  - docker pull solarce/precise-ruby:latest
+  - docker pull ruby
+  - docker pull python
+  - docker pull travisci/worker
+  - docker pull travisci/ci-amethyst
